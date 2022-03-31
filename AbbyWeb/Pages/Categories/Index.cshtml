@@ -9,7 +9,7 @@
             <h2 class="text-primary">Category List</h2>
         </div>
         <div class="col-6">
-
+            <a asp-page="create" class="btn-primary btn ">Create New Category</a>
         </div>
     </div>
     <br /> <br />
@@ -26,12 +26,12 @@
             </tr>
         </thead>
         <tbody>
-            @foreach(var obj in Model.Categories)
+            @foreach (var obj in Model.Categories)
             {
                 <tr>
                     <td width="50%">@obj.Name</td>
                     <td width="30%">@obj.DisplayOrder</td>
-                </tr>                
+                </tr>
             }
         </tbody>
     </table>
