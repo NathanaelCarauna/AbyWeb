@@ -17,9 +17,15 @@
         </div>
         <div class="mb-3">
             <label asp-for="Category.DisplayOrder"></label>
-            <input asp-for="Category.DisplayOrder" class="form-control"/>
+            <input asp-for="Category.DisplayOrder" class="form-control" />
             <span asp-validation-for="Category.DisplayOrder" class="text-danger"></span>
         </div>
         <button type="submit" class="btn-primary btn" style="width:150px">Create</button>
     </div>
 </form>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
