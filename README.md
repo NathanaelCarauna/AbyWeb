@@ -1,5 +1,5 @@
 # AbyWeb
-A mini CRUD project built using Asp .net core Razor pages (without MVC) and Toastr for alerts
+A mini CRUD project built using Asp .net core Razor pages (without MVC), Toastr for alerts and bootstrap 5 for icons and design
 
 ### Home
 ![image](https://user-images.githubusercontent.com/51246457/162594807-7950c7a1-042c-45b1-a8e9-ddcfad306d7a.png) <br>
